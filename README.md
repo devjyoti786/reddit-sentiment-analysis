@@ -10,6 +10,12 @@ This project adapts [asad70/reddit-sentiment-analysis](https://github.com/asad70
 originally released under the MIT licence. The original attribution is retained.
 See [Project overview](PROJECT_OVERVIEW.md) for the objectives, architecture, extensions and limitations.
 
+## Project documentation
+
+- [Project report](docs/PROJECT_REPORT.md): problem, implementation, demonstration results and evaluation limits.
+- [Demo and presentation guide](docs/DEMO_GUIDE.md): commands, a short walkthrough and explanations of the main design choices.
+- [Project overview](PROJECT_OVERVIEW.md): objectives, architecture and the work added to the original project.
+
 ## Quick start
 
 Use **Python 3.11 or newer**. On macOS, the system `python3` may be older; check
@@ -142,8 +148,8 @@ are in `data.py`.
 Tests cover ticker extraction, contributor counting, sentiment rules, simulated
 Reddit collection and saved-output behaviour. They do not establish real-world
 sentiment accuracy or verify your Reddit credentials.
-The included GitHub Actions workflow runs tests on Python 3.11 and 3.12 when the
-project is pushed to GitHub; it has not been run remotely as part of this local setup.
+The included GitHub Actions workflow runs tests on Python 3.11 and 3.12 for pushes
+and pull requests. Check the repository's Actions tab for the result of each run.
 
 ## Limitations
 
@@ -169,6 +175,8 @@ project is pushed to GitHub; it has not been run remotely as part of this local 
 | `tests/` | Automated regression tests |
 | `examples/sample_comments.jsonl` | Synthetic demonstration data |
 | `PROJECT_OVERVIEW.md` | Project explanation and development scope |
+| `docs/PROJECT_REPORT.md` | Technical report with demonstration results and limitations |
+| `docs/DEMO_GUIDE.md` | Demo walkthrough and presentation preparation |
 | `list of subreddits.csv` | Legacy 2021 reference data; unused by the application |
 
 ## Attribution and licence

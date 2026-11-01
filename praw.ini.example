@@ -1,0 +1,8 @@
+# Copy this file to praw.ini (same folder) and fill in your Reddit app's details.
+# praw.ini is listed in .gitignore to keep local credentials out of normal git adds.
+# Use valid application credentials from https://www.reddit.com/prefs/apps.
+
+[wsb-sentiment]
+client_id=YOUR_CLIENT_ID
+client_secret=YOUR_CLIENT_SECRET
+user_agent=reddit-stock-sentiment-analyzer/1.0.0 by u/YOUR_REDDIT_USERNAME
